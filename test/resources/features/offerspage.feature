@@ -11,4 +11,6 @@ Feature: Offers page for Open Cart E Commerce Website
 
     Then I click on the item cart button to see product
 
+    And Click on swiper button
+
 

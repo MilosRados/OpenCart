@@ -41,6 +41,11 @@ public class OffersPageStepDefinitions {
 
     }
 
+    @And("Click on swiper button")
+        public void i_am_clicking_on_swiper_button(){
+
+        offersPage.clickOnSwiperButton();
+    }
 
 
 
