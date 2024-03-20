@@ -14,6 +14,3 @@ Feature: Login Functionality for Open E Commerce Website
       When I enter email address
       And password
       Then I click on the Login button
-#      Then I should loggged in successfully
-#      When I click on the login button
-#      Then I should loggged in successfully

@@ -1,25 +1,18 @@
 package org.opencart.stepdefinitions;
 
-import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.cucumber.java.en_scouse.An;
 import org.opencart.pages.LoginPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LoginPageStepDefinitions {
 
-    private WebDriver driver;
     private LoginPage loginPage;
 
-    @Before
-    public void setup(){
-        driver = new ChromeDriver();
-    }
-
+    WebDriver driver = new ChromeDriver();
     @Given("I am on the OpenCart login page")
     public void i_am_on_the_open_cart_login_page(){
         driver.get("https://naveenautomationlabs.com/opencart/index.php");
